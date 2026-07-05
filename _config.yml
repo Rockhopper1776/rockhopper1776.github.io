@@ -1,0 +1,20 @@
+title: Rockhopper 1776
+description: Personal projects, history, games, writing, and experiments.
+url: "https://www.rockhopper1776.com"
+baseurl: ""
+
+remote_theme: jekyll/minima@master
+
+plugins:
+  - jekyll-remote-theme
+  - jekyll-feed
+  - jekyll-seo-tag
+
+minima:
+  skin: dark
+  nav_pages:
+    - projects.md
+    - about.md
+
+show_excerpts: true
+markdown: kramdown
