@@ -1,4 +1,4 @@
-# Rockhopper 1776 Minimal GitHub Pages Site
+# Rockhopper1776 Minimal GitHub Pages Site
 
 This is a simple static website for GitHub Pages.
 
