@@ -9,13 +9,14 @@ This is a simple static website for GitHub Pages.
 - `historical-writings.html` — historical writings page
 - `about.html` — About page
 - `styles.css` — shared design styles
+- `assets/hero-workshop.png` — homepage hero image
 
-## How to use
+## Maintaining the site
 
-1. Unzip the files.
-2. Copy all files into the root of your GitHub Pages repository.
-3. Commit and push the files.
-4. GitHub Pages should update the site automatically.
+1. Edit the HTML page for the section you want to update.
+2. Keep shared visual changes in `styles.css`.
+3. Add local images or downloads under `assets/`.
+4. Commit and push the files. GitHub Pages should update the site automatically.
 
 The Peloponnesian War Route Finder menu item currently links to:
 
@@ -24,3 +25,9 @@ The Peloponnesian War Route Finder menu item currently links to:
 If you later move the route finder into the same repository, change that menu link to a relative path such as:
 
 `peloponnesian-war-route-finder/index.html`
+
+## Adding content
+
+- Add new writing links by copying one of the `<article>` blocks in `historical-writings.html`.
+- Add new project summaries by copying one of the `.project-card` blocks in `index.html`.
+- Keep shared visual changes in `styles.css` so the pages stay consistent.
