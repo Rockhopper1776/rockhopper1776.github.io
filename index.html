@@ -1,80 +1,78 @@
-<!doctype html>
-<html lang="en">
-<head>
-  <meta charset="utf-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1">
-  <title>Rockhopper 1776</title>
-  <meta name="description" content="A personal site for historical writing, board-game tools, and AzerothCore projects.">
-  <link rel="stylesheet" href="/styles.css">
-</head>
-<body>
-  <a class="skip-link" href="#main">Skip to content</a>
+---
+layout: default
+title: Home
+description: A personal site for military history, boardgame tools, wargaming, and hobbyist software projects.
+section: home
+full_width: true
+---
 
-  <header class="site-header">
-    <div class="container nav-wrap">
-      <a class="brand" href="/" aria-label="Rockhopper 1776 home">
-        <span class="brand-mark">R</span>
-        <span class="brand-text">Rockhopper 1776</span>
-      </a>
-
-      <nav class="main-nav" aria-label="Primary navigation">
-        <a href="/azerothcore.html">AzerothCore</a>
-        <a href="/boardgames/">Boardgames</a>
-        <a href="/articles/">Writings</a>
-        <a href="/about/">About</a>
-      </nav>
+<section class="hero">
+  <div class="container hero-content">
+    <p class="eyebrow">History · Games · Hobbyist Development</p>
+    <h1>A practical home for historical writing, tabletop tools, and software projects.</h1>
+    <p class="hero-text">
+      I collect projects here at the intersection of history, wargaming, and useful software tinkering.
+      The site is intentionally simple so new essays, notes, and project pages can grow naturally over time.
+    </p>
+    <div class="hero-actions">
+      <a class="button" href="{{ '/boardgames/' | relative_url }}">Explore Boardgame Tools</a>
+      <a class="button button-secondary" href="{{ '/articles/' | relative_url }}">Read Historical Writings</a>
     </div>
-  </header>
+  </div>
+</section>
 
-  <main id="main">
-    <section class="hero">
-      <div class="container hero-content">
-        <p class="eyebrow">History · Games · Hobbyist Development</p>
-        <h1>A practical home for historical writing, tabletop tools, and software projects.</h1>
-        <p class="hero-text">
-          I collect projects here at the intersection of history, wargaming, and useful software tinkering.
-          The site is intentionally simple so new essays, notes, and project pages can grow naturally over time.
-        </p>
-        <div class="hero-actions">
-          <a class="button" href="/boardgames/">Explore Boardgame Tools</a>
-          <a class="button button-secondary" href="/articles/">Read Historical Writings</a>
-        </div>
-      </div>
-    </section>
+<section class="container section" aria-labelledby="site-sections-heading">
+  <div class="section-heading">
+    <p class="eyebrow">Explore the site</p>
+    <h2 id="site-sections-heading">History, wargaming, and hands-on projects</h2>
+    <p>Each section is a focused home for finished work, active experiments, and notes worth keeping.</p>
+  </div>
 
-    <section class="container section">
-      <div class="section-heading">
-        <p class="eyebrow">Current Sections</p>
-        <h2>What you’ll find here</h2>
-      </div>
+  <div class="card-grid">
+    <article class="project-card">
+      <p class="card-kicker">Software</p>
+      <h3>AzerothCore Mods &amp; Addons</h3>
+      <p>Modules, utilities, and development notes from running and extending a private WotLK server.</p>
+      <a class="text-link" href="{{ '/azerothcore.html' | relative_url }}">View AzerothCore projects <span aria-hidden="true">→</span></a>
+    </article>
 
-      <div class="card-grid">
-        <article class="project-card">
-          <h3>AzerothCore Mods & Addons</h3>
-          <p>Notes, code experiments, utilities, and add-ons for a private AzerothCore WotLK server.</p>
-          <a class="text-link" href="/azerothcore.html">View AzerothCore projects →</a>
-        </article>
+    <article class="project-card">
+      <p class="card-kicker">Tabletop</p>
+      <h3>Boardgames</h3>
+      <p>Playable tools, reference aids, and experiments for historical wargames and strategy games.</p>
+      <a class="text-link" href="{{ '/boardgames/' | relative_url }}">Browse boardgame projects <span aria-hidden="true">→</span></a>
+    </article>
 
-        <article class="project-card">
-          <h3>Boardgames</h3>
-          <p>Tools, notes, aids, and experiments for tabletop wargames and strategy games.</p>
-          <a class="text-link" href="/boardgames/">Browse boardgame projects →</a>
-        </article>
+    <article class="project-card">
+      <p class="card-kicker">History</p>
+      <h3>Historical Writings</h3>
+      <p>Long-form essays and articles on military history, early America, and the wider Atlantic world.</p>
+      <a class="text-link" href="{{ '/articles/' | relative_url }}">Browse writings <span aria-hidden="true">→</span></a>
+    </article>
+  </div>
+</section>
 
-        <article class="project-card">
-          <h3>Historical Writings</h3>
-          <p>Essays and articles on military history, early America, religion, and related topics.</p>
-          <a class="text-link" href="/articles/">Browse writings →</a>
-        </article>
-      </div>
-    </section>
-  </main>
-
-  <footer class="site-footer">
-    <div class="container footer-inner">
-      <p>&copy; <span id="year">2026</span> Kevin Conway. All rights reserved.</p>
-      <p><a href="/about/">About this site</a></p>
+<section class="recent-work" aria-labelledby="recent-work-heading">
+  <div class="container section">
+    <div class="section-heading">
+      <p class="eyebrow">Featured work</p>
+      <h2 id="recent-work-heading">A good place to start</h2>
     </div>
-  </footer>
-</body>
-</html>
+
+    <div class="feature-grid">
+      <article class="feature-card">
+        <p class="item-meta">Historical writing · Seven Years’ War</p>
+        <h3>The Battle of Quiberon Bay</h3>
+        <p>How Edward Hawke’s victory ended France’s invasion plans and helped secure Britain’s rise as the dominant maritime power.</p>
+        <a class="text-link" href="{{ '/the-battle-of-quiberon-bay.html' | relative_url }}">Read the article <span aria-hidden="true">→</span></a>
+      </article>
+
+      <article class="feature-card">
+        <p class="item-meta">Boardgame tool · Available now</p>
+        <h3>Peloponnesian War Route Finder</h3>
+        <p>Quickly compare movement routes and connections while playing Mark Herman’s <em>Peloponnesian War</em>.</p>
+        <a class="text-link" href="{{ '/peloponnesian-war-route-finder/' | relative_url }}">Open the route finder <span aria-hidden="true">→</span></a>
+      </article>
+    </div>
+  </div>
+</section>

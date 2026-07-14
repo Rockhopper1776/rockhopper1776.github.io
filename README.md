@@ -1,33 +1,34 @@
-# Rockhopper1776 Minimal GitHub Pages Site
+# Rockhopper 1776
 
-This is a simple static website for GitHub Pages.
+Rockhopper 1776 is a Jekyll-powered GitHub Pages site for historical writing, boardgame tools,
+and hobbyist software projects.
 
-## Files
+## Site structure
 
-- `index.html` — homepage
-- `azerothcore.html` — AzerothCore mods and addons page
-- `historical-writings.html` — historical writings page
-- `about.html` — About page
-- `styles.css` — shared design styles
-- `assets/hero-workshop.png` — homepage hero image
+- `index.html` — homepage and featured work
+- `articles.html` — historical writing index at `/articles/`
+- `boardgames.html` — boardgame tools and projects at `/boardgames/`
+- `azerothcore.html` — AzerothCore modules and notes
+- `about.html` — site and author introduction at `/about/`
+- `the-battle-of-quiberon-bay.html` — long-form historical article
+- `_layouts/default.html` — shared header, navigation, page shell, and footer
+- `styles.css` — shared responsive styles
+- `404.html` — useful fallback page for broken or outdated links
 
-## Maintaining the site
+`historical-writings.html` is retained only as a redirect so old bookmarks and search results reach
+the current `/articles/` page.
 
-1. Edit the HTML page for the section you want to update.
-2. Keep shared visual changes in `styles.css`.
-3. Add local images or downloads under `assets/`.
-4. Commit and push the files. GitHub Pages should update the site automatically.
+## Adding a project or article
 
-The Peloponnesian War Route Finder menu item currently links to:
+1. Copy a `.content-list-item` block on the appropriate section page.
+2. Add the new page with `layout: default` and a matching `section` value in its front matter.
+3. Use root-relative Jekyll links, for example `{{ '/articles/' | relative_url }}`.
+4. Keep site-wide presentation changes in `styles.css` and shared navigation in `_layouts/default.html`.
 
-`https://www.rockhopper1776.com/peloponnesian-war-route-finder/`
+The accepted `section` values are `azerothcore`, `boardgames`, `writings`, and `about`. They control
+the active state in the main navigation.
 
-If you later move the route finder into the same repository, change that menu link to a relative path such as:
+## Publishing
 
-`peloponnesian-war-route-finder/index.html`
-
-## Adding content
-
-- Add new writing links by copying one of the `<article>` blocks in `historical-writings.html`.
-- Add new project summaries by copying one of the `.project-card` blocks in `index.html`.
-- Keep shared visual changes in `styles.css` so the pages stay consistent.
+Changes are published by GitHub Pages only after they are committed and pushed to the configured
+publishing branch. Review the local build and changed-file diff before pushing.

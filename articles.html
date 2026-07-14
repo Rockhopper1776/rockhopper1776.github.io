@@ -1,16 +1,26 @@
 ---
 layout: default
-title: Articles
+title: Historical Writings
+description: Essays and articles on military history, early America, religion, and the ancient world.
 permalink: /articles/
+section: writings
 ---
 
-<h1>Articles</h1>
+<p class="eyebrow">Writings</p>
+<h1>Historical Writings</h1>
+<p class="lead">
+  Long-form essays and research-based articles on military history, early America,
+  religion, and the ancient world.
+</p>
 
-<ul>
-  {% for post in site.posts %}
-    <li>
-      <a href="{{ post.url }}">{{ post.title }}</a>
-      <small>{{ post.date | date: "%B %-d, %Y" }}</small>
-    </li>
-  {% endfor %}
-</ul>
+<section class="content-list" aria-label="Published writings">
+  <article class="content-list-item">
+    <p class="item-meta"><time datetime="2026-07-09">July 9, 2026</time> · Naval history · Seven Years’ War</p>
+    <h2><a href="{{ '/the-battle-of-quiberon-bay.html' | relative_url }}">The Battle of Quiberon Bay</a></h2>
+    <p>
+      Edward Hawke’s daring pursuit into a storm-wracked bay destroyed French invasion hopes,
+      secured Britain’s command of the sea, and reshaped the wider Seven Years’ War.
+    </p>
+    <a class="text-link" href="{{ '/the-battle-of-quiberon-bay.html' | relative_url }}">Read the article <span aria-hidden="true">→</span></a>
+  </article>
+</section>
