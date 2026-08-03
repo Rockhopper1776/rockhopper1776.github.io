@@ -52,7 +52,10 @@ a:hover {
 }
 
 a:focus-visible,
-button:focus-visible {
+button:focus-visible,
+input:focus-visible,
+select:focus-visible,
+textarea:focus-visible {
   outline: 3px solid var(--accent-gold);
   outline-offset: 3px;
 }
@@ -423,6 +426,120 @@ h3 {
   font-size: 1.55rem;
 }
 
+.contact-card {
+  padding: clamp(1.25rem, 3vw, 2rem);
+}
+
+.contact-form {
+  margin-bottom: 2rem;
+  padding-bottom: 2rem;
+  border-bottom: 1px solid var(--line);
+}
+
+.form-grid {
+  display: grid;
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+  gap: 1.1rem;
+}
+
+.form-field {
+  min-width: 0;
+}
+
+.form-field-wide {
+  grid-column: 1 / -1;
+}
+
+.form-field label {
+  display: block;
+  margin-bottom: 0.35rem;
+  color: var(--text);
+  font-family: var(--sans);
+  font-size: 0.92rem;
+  font-weight: 750;
+}
+
+.field-optional,
+.field-hint,
+.privacy-note {
+  color: var(--muted);
+  font-family: var(--sans);
+  font-size: 0.82rem;
+  font-weight: 400;
+}
+
+.field-optional {
+  margin-left: 0.35rem;
+}
+
+.form-field input,
+.form-field select,
+.form-field textarea {
+  width: 100%;
+  border: 1px solid #bcae99;
+  border-radius: 6px;
+  color: var(--text);
+  background: #fffdf8;
+  font: inherit;
+}
+
+.form-field input,
+.form-field select {
+  min-height: 2.85rem;
+  padding: 0.6rem 0.7rem;
+}
+
+.form-field textarea {
+  min-height: 12rem;
+  padding: 0.7rem;
+  resize: vertical;
+}
+
+.form-field input:hover,
+.form-field select:hover,
+.form-field textarea:hover {
+  border-color: #9d8a70;
+}
+
+.field-hint {
+  margin: 0.35rem 0 0;
+  line-height: 1.5;
+}
+
+.turnstile-wrap {
+  min-height: 65px;
+  margin: 1.25rem 0 1rem;
+}
+
+.form-status,
+.contact-unavailable {
+  padding: 1rem;
+  border-left: 4px solid var(--accent-gold);
+  background: rgba(162, 122, 50, 0.09);
+}
+
+.form-status {
+  margin: 1rem 0 0;
+}
+
+.contact-unavailable {
+  margin-bottom: 2rem;
+}
+
+.contact-unavailable h2,
+.contact-policy h2 {
+  font-size: 1.25rem;
+}
+
+.contact-unavailable p,
+.contact-policy .privacy-note {
+  margin-bottom: 0;
+}
+
+.contact-policy .clean-list {
+  margin-bottom: 1rem;
+}
+
 .clean-list {
   margin-bottom: 0;
   padding-left: 1.2rem;
@@ -746,6 +863,14 @@ h3 {
 
   .button {
     width: 100%;
+  }
+
+  .form-grid {
+    grid-template-columns: 1fr;
+  }
+
+  .form-field-wide {
+    grid-column: auto;
   }
 
   .article-toc ol {

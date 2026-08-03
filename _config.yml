@@ -4,3 +4,9 @@ url: "https://www.rockhopper1776.com"
 lang: en-US
 author: Kevin Conway
 markdown: kramdown
+
+# These values are public form identifiers. Keep the Turnstile secret key only
+# in the Basin dashboard; never add it to this repository.
+contact_form:
+  endpoint: "https://usebasin.com/f/68fa6e6e9fb3"
+  turnstile_site_key: "0x4AAAAAAEFljhvX8xDl1wEd"
