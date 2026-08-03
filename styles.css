@@ -564,6 +564,58 @@ h3 {
   line-height: 1.78;
 }
 
+.note-ref {
+  margin-left: 0.08em;
+  font-family: var(--sans);
+  font-size: 0.72em;
+  line-height: 0;
+  vertical-align: super;
+}
+
+.note-ref a {
+  text-decoration: none;
+}
+
+.endnotes,
+.bibliography {
+  margin-top: 2.75rem;
+  padding-top: 0.35rem;
+  border-top: 1px solid var(--line);
+}
+
+.endnotes ol,
+.bibliography ul {
+  padding-left: 1.35rem;
+}
+
+.endnotes li,
+.bibliography li {
+  font-size: 0.94rem;
+  line-height: 1.65;
+}
+
+.endnotes li + li,
+.bibliography li + li {
+  margin-top: 0.75rem;
+}
+
+.endnotes a,
+.bibliography a {
+  overflow-wrap: anywhere;
+}
+
+.bibliography h3 {
+  margin-top: 1.5rem;
+  font-family: var(--sans);
+  font-size: 1rem;
+}
+
+.backlink {
+  margin-left: 0.25rem;
+  font-family: var(--sans);
+  text-decoration: none;
+}
+
 .article-footer {
   margin-top: 1.5rem;
   padding-top: 1.25rem;
