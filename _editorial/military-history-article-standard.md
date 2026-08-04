@@ -1,7 +1,11 @@
 # Rockhopper 1776 Military History Article Research and Editorial Standard
 
-Version 1.0  
-Established: August 3, 2026  
+Version 1.1
+
+Established: August 3, 2026
+
+Revised: August 4, 2026
+
 Status: Mandatory for all automated military-history article research and drafting
 
 ## Mandatory opening requirement
@@ -222,9 +226,13 @@ Write in clear American English for an informed general audience. The tone shoul
 
 Academic rigor does not require cold or compressed prose. Write with a touch of warmth and guide the reader along a deliberate narrative or learning path. A paragraph should not merely deposit facts; it should orient the reader, develop an idea, and make clear why that idea leads to what follows. Introduce a person, institution, technology, or technical term before describing the role it performs. Do not open a paragraph with wording that assumes an unmade introduction.
 
-While researching, keep brief private craft notes on effective explanatory and narrative techniques encountered in high-quality historical writing. Adapt general lessons such as pacing, clarity, transitions, concrete framing, and the order in which difficult ideas are introduced. Never imitate a source's distinctive wording, voice, or structure, and never allow stylistic admiration to replace independent historical analysis.
+While researching, keep brief private craft notes on effective explanatory and narrative techniques encountered in high-quality historical writing, especially strong scholarly secondary works. Study not only pacing, clarity, transitions, concrete framing, and explanatory order, but also adaptable grammatical patterns: clause structure, sentence linkage, paragraph openings and conclusions, and the integration of evidence with interpretation. Use these observations to improve the article's range and polish. Never imitate a source's distinctive wording, voice, syntax, or structure, and never allow stylistic admiration to replace independent historical analysis.
 
 Sustain reader interest through the subject itself: consequential questions, human choices, institutional pressures, uncertainty, revealing contrasts, and concrete explanations of how events unfolded. Use transitions that carry an idea across paragraphs and sections. Vary sentence length and paragraph rhythm, but do not manufacture drama, use false suspense, or sacrifice qualifications for momentum.
+
+Avoid reflexive commentary that pauses the argument merely to announce its importance. Standalone sentences such as “That distinction matters,” “This matters,” or “The point is important” often sound formulaic when the surrounding analysis already establishes the significance. Prefer to show why a distinction matters by carrying its consequences directly into the next sentence or by making the consequence part of the claim itself. Use this kind of explicit signposting only when it performs necessary analytical work rather than serving as a habitual transition.
+
+Use em dashes sparingly. They should be an occasional tool for a genuine interruption or emphatic turn, not the default way to join clauses, insert qualifications, or create rhythm. Prefer a period, comma, semicolon, colon, parentheses, or a recast sentence when one of those choices expresses the relationship more cleanly. During the editorial pass, review every em dash and retain it only when it is demonstrably the strongest punctuation choice.
 
 - Prefer specific nouns and active verbs.
 - Define specialist terms when first introduced.
@@ -295,7 +303,7 @@ Follow this sequence for every automated article:
 9. Draft the article without citations first only if source mapping is maintained; otherwise draft with notes as claims are written.
 10. Add and verify Chicago endnotes and bibliography.
 11. Perform the separate accuracy and citation audit.
-12. Perform an editorial pass for organization, clarity, repetition, tone, warmth, paragraph-to-paragraph flow, sentence rhythm, and length. Read paragraph openings and section transitions in sequence to catch assumed introductions, abrupt topic shifts, and staccato exposition.
+12. Perform an editorial pass for organization, clarity, repetition, tone, warmth, paragraph-to-paragraph flow, sentence rhythm, and length. Read paragraph openings and section transitions in sequence to catch assumed introductions, abrupt topic shifts, staccato exposition, reflexive “this matters” commentary, and formulaic signposting. Review every em dash and replace it unless it is the clearest punctuation choice.
 13. Prepare the article page and Writings card in the isolated task worktree.
 14. Validate document structure, table-of-contents links, internal links, dates, reading time, encoding, and the repository diff.
 15. Produce the required review report and alert the site owner.
