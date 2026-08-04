@@ -220,9 +220,18 @@ Technology and weapon-development articles should distinguish design intent, tec
 
 Write in clear American English for an informed general audience. The tone should be authoritative but not overconfident, lively but not sensational, and analytical without becoming needlessly abstract.
 
+Academic rigor does not require cold or compressed prose. Write with a touch of warmth and guide the reader along a deliberate narrative or learning path. A paragraph should not merely deposit facts; it should orient the reader, develop an idea, and make clear why that idea leads to what follows. Introduce a person, institution, technology, or technical term before describing the role it performs. Do not open a paragraph with wording that assumes an unmade introduction.
+
+While researching, keep brief private craft notes on effective explanatory and narrative techniques encountered in high-quality historical writing. Adapt general lessons such as pacing, clarity, transitions, concrete framing, and the order in which difficult ideas are introduced. Never imitate a source's distinctive wording, voice, or structure, and never allow stylistic admiration to replace independent historical analysis.
+
+Sustain reader interest through the subject itself: consequential questions, human choices, institutional pressures, uncertainty, revealing contrasts, and concrete explanations of how events unfolded. Use transitions that carry an idea across paragraphs and sections. Vary sentence length and paragraph rhythm, but do not manufacture drama, use false suspense, or sacrifice qualifications for momentum.
+
 - Prefer specific nouns and active verbs.
 - Define specialist terms when first introduced.
 - Introduce individuals with enough context for readers to understand their role.
+- Give each paragraph a clear point and a logical relationship to the paragraph before and after it.
+- Prefer connected exposition over strings of terse declarative sentences, especially at paragraph openings.
+- Use occasional signposting questions or orienting phrases when they genuinely help the reader follow a process or argument.
 - Use ranks, unit names, ship names, aircraft names, dates, and geographic names consistently.
 - Italicize ship names and book or journal titles as appropriate.
 - Avoid clichés, sweeping national stereotypes, unsupported superlatives, and claims that an event “changed history forever.”
@@ -286,7 +295,7 @@ Follow this sequence for every automated article:
 9. Draft the article without citations first only if source mapping is maintained; otherwise draft with notes as claims are written.
 10. Add and verify Chicago endnotes and bibliography.
 11. Perform the separate accuracy and citation audit.
-12. Perform an editorial pass for organization, clarity, repetition, tone, and length.
+12. Perform an editorial pass for organization, clarity, repetition, tone, warmth, paragraph-to-paragraph flow, sentence rhythm, and length. Read paragraph openings and section transitions in sequence to catch assumed introductions, abrupt topic shifts, and staccato exposition.
 13. Prepare the article page and Writings card in the isolated task worktree.
 14. Validate document structure, table-of-contents links, internal links, dates, reading time, encoding, and the repository diff.
 15. Produce the required review report and alert the site owner.
