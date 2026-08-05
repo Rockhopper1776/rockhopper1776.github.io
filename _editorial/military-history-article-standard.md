@@ -1,10 +1,10 @@
 # Rockhopper 1776 Military History Article Research and Editorial Standard
 
-Version 1.1
+Version 1.2
 
 Established: August 3, 2026
 
-Revised: August 4, 2026
+Revised: August 5, 2026
 
 Status: Mandatory for all automated military-history article research and drafting
 
@@ -224,11 +224,11 @@ Technology and weapon-development articles should distinguish design intent, tec
 
 Write in clear American English for an informed general audience. The tone should be authoritative but not overconfident, lively but not sensational, and analytical without becoming needlessly abstract.
 
-Academic rigor does not require cold or compressed prose. Write with a touch of warmth and guide the reader along a deliberate narrative or learning path. A paragraph should not merely deposit facts; it should orient the reader, develop an idea, and make clear why that idea leads to what follows. Introduce a person, institution, technology, or technical term before describing the role it performs. Do not open a paragraph with wording that assumes an unmade introduction.
+Academic rigor does not require cold, compressed, or clipped prose. Write with a touch of warmth and guide the reader along a deliberate narrative or learning path. A paragraph should not merely deposit facts; it should orient the reader, develop an idea, and make clear why that idea leads to what follows. Introduce a person, institution, technology, or technical term before describing the role it performs. Do not open a paragraph with wording that assumes an unmade introduction.
 
-While researching, keep brief private craft notes on effective explanatory and narrative techniques encountered in high-quality historical writing, especially strong scholarly secondary works. Study not only pacing, clarity, transitions, concrete framing, and explanatory order, but also adaptable grammatical patterns: clause structure, sentence linkage, paragraph openings and conclusions, and the integration of evidence with interpretation. Use these observations to improve the article's range and polish. Never imitate a source's distinctive wording, voice, syntax, or structure, and never allow stylistic admiration to replace independent historical analysis.
+While researching, keep brief private craft notes on effective explanatory and narrative techniques encountered in high-quality historical writing, especially strong scholarly secondary works. Study how accomplished authors create continuity at every scale: relationships among words and clauses, links from one sentence to the next, paragraph openings and conclusions, bridges between sections, and the development of ideas across the whole article. Pay particular attention to adaptable transitional techniques such as purposeful repetition of a key term, clear pronoun and subject continuity, chronological handoffs, cause and consequence, contrast, and the return to an earlier question or idea. Use these observations to improve the article's range and polish. Never imitate a source's distinctive wording, voice, syntax, or structure, and never allow stylistic admiration to replace independent historical analysis.
 
-Sustain reader interest through the subject itself: consequential questions, human choices, institutional pressures, uncertainty, revealing contrasts, and concrete explanations of how events unfolded. Use transitions that carry an idea across paragraphs and sections. Vary sentence length and paragraph rhythm, but do not manufacture drama, use false suspense, or sacrifice qualifications for momentum.
+Sustain reader interest through the subject itself: consequential questions, human choices, institutional pressures, uncertainty, revealing contrasts, and concrete explanations of how events unfolded. Use transitions that carry an idea across sentences, paragraphs, sections, and the larger argument. A strong transition need not announce itself with a stock connective; it may echo a meaningful term, complete a causal or chronological sequence, answer a question raised earlier, or turn deliberately to a contrast. Give special attention to paragraph-opening sentences. They should ordinarily reveal how the new paragraph grows from the preceding one while establishing the next subject or analytical step. Short sentences may provide emphasis or pace when deliberately placed; the problem is an unintended staccato sequence that leaves relationships among claims unstated. Vary sentence length and paragraph rhythm, but do not manufacture drama, use false suspense, or sacrifice qualifications for momentum.
 
 Avoid reflexive commentary that pauses the argument merely to announce its importance. Standalone sentences such as “That distinction matters,” “This matters,” or “The point is important” often sound formulaic when the surrounding analysis already establishes the significance. Prefer to show why a distinction matters by carrying its consequences directly into the next sentence or by making the consequence part of the claim itself. Use this kind of explicit signposting only when it performs necessary analytical work rather than serving as a habitual transition.
 
@@ -238,7 +238,8 @@ Use em dashes sparingly. They should be an occasional tool for a genuine interru
 - Define specialist terms when first introduced.
 - Introduce individuals with enough context for readers to understand their role.
 - Give each paragraph a clear point and a logical relationship to the paragraph before and after it.
-- Prefer connected exposition over strings of terse declarative sentences, especially at paragraph openings.
+- Replace clipped or staccato strings of declarative sentences with connected exposition when the relationships among the claims can be made explicit.
+- Make paragraph openings perform a genuine transition rather than merely announce a new topic, and vary the technique so the prose does not become mechanically signposted.
 - Use occasional signposting questions or orienting phrases when they genuinely help the reader follow a process or argument.
 - Use ranks, unit names, ship names, aircraft names, dates, and geographic names consistently.
 - Italicize ship names and book or journal titles as appropriate.
@@ -298,12 +299,12 @@ Follow this sequence for every automated article:
 4. Build a preliminary source list and verify that adequate scholarship is accessible.
 5. Stop if the source base does not meet this standard.
 6. Form a focused research question and provisional thesis.
-7. Research the topic, keeping private notes that distinguish evidence, interpretation, and uncertainty.
-8. Create an outline proportionate to the target length.
+7. Research the topic, keeping private notes that distinguish evidence, interpretation, and uncertainty and concrete craft observations about how strong sources create continuity among clauses, sentences, paragraphs, sections, and ideas.
+8. Create an outline proportionate to the target length, including the intended conceptual handoff from each section to the next.
 9. Draft the article without citations first only if source mapping is maintained; otherwise draft with notes as claims are written.
 10. Add and verify Chicago endnotes and bibliography.
 11. Perform the separate accuracy and citation audit.
-12. Perform an editorial pass for organization, clarity, repetition, tone, warmth, paragraph-to-paragraph flow, sentence rhythm, and length. Read paragraph openings and section transitions in sequence to catch assumed introductions, abrupt topic shifts, staccato exposition, reflexive “this matters” commentary, and formulaic signposting. Review every em dash and replace it unless it is the clearest punctuation choice.
+12. Perform an editorial pass for organization, clarity, repetition, tone, warmth, paragraph-to-paragraph flow, sentence rhythm, and length. Read each paragraph's closing sentence beside the next paragraph's opening sentence, and read each section's close beside the next section's opening before reviewing all paragraph openings and section transitions in sequence. Revise unintended clipped or staccato runs, weak bridges, abrupt topic shifts, assumed introductions, repeated transition formulas, reflexive “this matters” commentary, and any passage whose ideas are merely adjacent rather than logically connected. Preserve short sentences when they serve a deliberate purpose. Review every em dash and replace it unless it is the clearest punctuation choice.
 13. Prepare the article page and Writings card in the isolated task worktree.
 14. Validate document structure, table-of-contents links, internal links, dates, reading time, encoding, and the repository diff.
 15. Produce the required review report and alert the site owner.
