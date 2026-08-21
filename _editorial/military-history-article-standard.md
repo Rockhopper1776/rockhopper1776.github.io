@@ -1,10 +1,10 @@
 # Rockhopper 1776 Military History Article Research and Editorial Standard
 
-Version 1.2
+Version 1.3
 
 Established: August 3, 2026
 
-Revised: August 5, 2026
+Revised: August 21, 2026
 
 Status: Mandatory for all automated military-history article research and drafting
 
@@ -210,7 +210,7 @@ Every draft should normally contain:
 2. A concise subtitle or lead explaining the subject’s significance.
 3. An introduction that establishes context, scope, and thesis.
 4. Logically ordered sections with descriptive headings.
-5. A conclusion that answers the article’s central question and explains its significance without merely repeating the introduction.
+5. A conclusion that answers the article’s central question and explains its significance without replaying the introduction or every qualification already established in the body.
 6. Numbered endnotes.
 7. A Chicago-style bibliography.
 
@@ -226,7 +226,7 @@ Write in clear American English for an informed general audience. The tone shoul
 
 Academic rigor does not require cold, compressed, or clipped prose. Write with a touch of warmth and guide the reader along a deliberate narrative or learning path. A paragraph should not merely deposit facts; it should orient the reader, develop an idea, and make clear why that idea leads to what follows. Introduce a person, institution, technology, or technical term before describing the role it performs. Do not open a paragraph with wording that assumes an unmade introduction.
 
-While researching, keep brief private craft notes on effective explanatory and narrative techniques encountered in high-quality historical writing, especially strong scholarly secondary works. Study how accomplished authors create continuity at every scale: relationships among words and clauses, links from one sentence to the next, paragraph openings and conclusions, bridges between sections, and the development of ideas across the whole article. Pay particular attention to adaptable transitional techniques such as purposeful repetition of a key term, clear pronoun and subject continuity, chronological handoffs, cause and consequence, contrast, and the return to an earlier question or idea. Use these observations to improve the article's range and polish. Never imitate a source's distinctive wording, voice, syntax, or structure, and never allow stylistic admiration to replace independent historical analysis.
+While researching, keep brief private craft notes on effective explanatory and narrative techniques encountered in high-quality historical writing, especially strong scholarly secondary works. Study how accomplished authors create continuity at every scale: relationships among words and clauses, links from one sentence to the next, paragraph openings and conclusions, bridges between sections, and the development of ideas across the whole article. Pay particular attention to adaptable transitional techniques such as purposeful repetition of a key term, clear pronoun and subject continuity, chronological handoffs, cause and consequence, contrast, and the return to an earlier question or idea. Use these observations to improve the article's range and polish. Deliberately practice adaptable patterns of syntax, cadence, voice, and structure when they suit the subject and Rockhopper 1776, but do not reproduce a source's wording, phrases, sentences, passages, historical content, or distinctive combination of mannerisms. Stylistic study must strengthen, not replace, independent historical analysis.
 
 Sustain reader interest through the subject itself: consequential questions, human choices, institutional pressures, uncertainty, revealing contrasts, and concrete explanations of how events unfolded. Use transitions that carry an idea across sentences, paragraphs, sections, and the larger argument. A strong transition need not announce itself with a stock connective; it may echo a meaningful term, complete a causal or chronological sequence, answer a question raised earlier, or turn deliberately to a contrast. Give special attention to paragraph-opening sentences. They should ordinarily reveal how the new paragraph grows from the preceding one while establishing the next subject or analytical step. Short sentences may provide emphasis or pace when deliberately placed; the problem is an unintended staccato sequence that leaves relationships among claims unstated. Vary sentence length and paragraph rhythm, but do not manufacture drama, use false suspense, or sacrifice qualifications for momentum.
 
@@ -234,12 +234,27 @@ Avoid reflexive commentary that pauses the argument merely to announce its impor
 
 Use em dashes sparingly. They should be an occasional tool for a genuine interruption or emphatic turn, not the default way to join clauses, insert qualifications, or create rhythm. Prefer a period, comma, semicolon, colon, parentheses, or a recast sentence when one of those choices expresses the relationship more cleanly. During the editorial pass, review every em dash and retain it only when it is demonstrably the strongest punctuation choice.
 
+### Natural prose and rhetorical variety
+
+Polish should not make every unit of prose look engineered from the same template. Let the evidence, chronology, scale, and human stakes determine the shape of a passage. Natural historical prose may include an elegant synthesis, a plain report, a brief factual interlude, a source dispute, a close description, or a transition that leaves a consequence to unfold in the next paragraph. Do not introduce grammatical errors, fake informality, invented personal experience, arbitrary roughness, or unsupported uncertainty to appear human or to influence automated detectors.
+
+Use balanced contrast selectively. Constructions such as “not X, but Y,” “less X than Y,” paired reversals, and symmetrical qualifications can sharpen an argument, but repeated use creates a mechanical cadence. During revision, mark these constructions across the whole article. Retain the strongest examples; when several perform the same work, recast most of the others as direct factual, causal, or chronological prose.
+
+Do not force every paragraph to end with a compressed interpretive maxim. Some paragraphs should end on a named person, unit, object, action, result, evidentiary limit, or concrete detail. A functional closing sentence is acceptable when it completes the local work and prepares what follows. Similarly, vary paragraph architecture according to purpose rather than repeatedly moving through topic, facts, complication, and polished lesson.
+
+Trust the reader once the thesis has been established. A later return to the central claim must add evidence, change scale, identify an exception, sharpen a consequence, or resolve an earlier question. Remove passages that merely restate the thesis in new polished language, especially in the conclusion.
+
+Prefer concrete actors and actions when abstraction is not doing necessary analytical work. If an abstract noun such as “the relationship,” “the geometry,” “the picture,” “the score,” or “the aftermath” becomes the subject of a sentence, test whether a person, unit, institution, aircraft, weapon, decision, or observable event would make the history clearer and more embodied.
+
+Use parallel lists and triads when their categories, sequence, or completeness genuinely clarify the subject. Do not build balanced inventories merely to make the prose sound comprehensive. Select the details that advance the explanation, or connect them through the causal sequence in which historical actors encountered them.
+
 - Prefer specific nouns and active verbs.
 - Define specialist terms when first introduced.
 - Introduce individuals with enough context for readers to understand their role.
 - Give each paragraph a clear point and a logical relationship to the paragraph before and after it.
 - Replace clipped or staccato strings of declarative sentences with connected exposition when the relationships among the claims can be made explicit.
 - Make paragraph openings perform a genuine transition rather than merely announce a new topic, and vary the technique so the prose does not become mechanically signposted.
+- Vary paragraph shapes and endings according to their historical work; do not give every paragraph the same evidence-qualification-synthesis arc or a quotable concluding button.
 - Use occasional signposting questions or orienting phrases when they genuinely help the reader follow a process or argument.
 - Use ranks, unit names, ship names, aircraft names, dates, and geographic names consistently.
 - Italicize ship names and book or journal titles as appropriate.
@@ -304,7 +319,7 @@ Follow this sequence for every automated article:
 9. Draft the article without citations first only if source mapping is maintained; otherwise draft with notes as claims are written.
 10. Add and verify Chicago endnotes and bibliography.
 11. Perform the separate accuracy and citation audit.
-12. Perform an editorial pass for organization, clarity, repetition, tone, warmth, paragraph-to-paragraph flow, sentence rhythm, and length. Read each paragraph's closing sentence beside the next paragraph's opening sentence, and read each section's close beside the next section's opening before reviewing all paragraph openings and section transitions in sequence. Revise unintended clipped or staccato runs, weak bridges, abrupt topic shifts, assumed introductions, repeated transition formulas, reflexive “this matters” commentary, and any passage whose ideas are merely adjacent rather than logically connected. Preserve short sentences when they serve a deliberate purpose. Review every em dash and replace it unless it is the clearest punctuation choice.
+12. Perform an editorial pass for organization, clarity, repetition, tone, warmth, paragraph-to-paragraph flow, sentence rhythm, rhetorical variety, and length. Read each paragraph's closing sentence beside the next paragraph's opening sentence, and read each section's close beside the next section's opening before reviewing all paragraph openings and section transitions in sequence. Revise unintended clipped or staccato runs, weak bridges, abrupt topic shifts, assumed introductions, repeated transition formulas, reflexive “this matters” commentary, and any passage whose ideas are merely adjacent rather than logically connected. Preserve short sentences when they serve a deliberate purpose. Review every em dash and replace it unless it is the clearest punctuation choice. Then perform a separate rhetorical-pattern and naturalness audit. Mark repeated balanced contrasts, polished paragraph-ending maxims, restatements of the thesis, recurring paragraph templates, ornamental parallel lists or triads, and abstract grammatical subjects that displace concrete historical actors. Revise excessive concentrations while retaining the strongest intentional examples, and record the principal categories of change in the working notes and owner report.
 13. Prepare the article page and Writings card in the isolated task worktree.
 14. Validate document structure, table-of-contents links, internal links, dates, reading time, encoding, and the repository diff.
 15. Produce the required review report and alert the site owner.
@@ -359,6 +374,7 @@ Every completed scheduled run must alert the site owner and report:
 - files created or changed;
 - validation performed and its results;
 - any editorial decisions requiring human review;
+- the principal sentence-flow and naturalness revisions, including any conspicuous rhetorical pattern deliberately retained and why;
 - publication status stated exactly as: **Not published — awaiting editorial approval.**
 
 The report must be candid. It should draw the reviewer’s attention to the weakest evidentiary point, the most consequential interpretive judgment, and any citation that deserves manual inspection.
