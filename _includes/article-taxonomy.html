@@ -1,0 +1,12 @@
+{% assign taxonomy_size = page.topics.size | plus: page.periods.size %}
+{% assign taxonomy_index = 0 %}
+<p class="eyebrow article-header-taxonomy">
+  {% for topic in page.topics %}
+    {% assign taxonomy_index = taxonomy_index | plus: 1 %}
+    <a href="{{ '/articles/' | relative_url }}?topic={{ topic | slugify }}">{{ topic }}</a>{% unless taxonomy_index == taxonomy_size %}<span aria-hidden="true"> · </span>{% endunless %}
+  {% endfor %}
+  {% for period in page.periods %}
+    {% assign taxonomy_index = taxonomy_index | plus: 1 %}
+    <a href="{{ '/articles/' | relative_url }}?period={{ period | slugify }}">{{ period }}</a>{% unless taxonomy_index == taxonomy_size %}<span aria-hidden="true"> · </span>{% endunless %}
+  {% endfor %}
+</p>
