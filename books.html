@@ -1,0 +1,39 @@
+---
+layout: default
+title: Books
+description: Published books by Kevin Conway, with details and purchase links.
+permalink: /books/
+section: books
+---
+
+{% assign books = site.pages | where: "book", true | sort: "published" | reverse %}
+
+<p class="eyebrow">Books</p>
+<h1>My Published Books</h1>
+<p class="lead">
+  All books are available for order from Amazon.
+</p>
+
+<section class="book-grid" aria-label="Published books">
+  {% for book in books %}
+    <article class="book-card">
+      <a class="book-card-cover" href="{{ book.url | relative_url }}">
+        <img
+          src="{{ book.cover | relative_url }}"
+          alt="{{ book.cover_alt }}"
+          width="{{ book.cover_width }}"
+          height="{{ book.cover_height }}"
+          loading="lazy"
+        >
+      </a>
+
+      <div class="book-card-copy">
+        <p class="item-meta">{{ book.book_format }} · {{ book.pages }} pages</p>
+        <h2><a href="{{ book.url | relative_url }}">{{ book.title }}</a></h2>
+        <p class="book-card-subtitle">{{ book.subtitle }}</p>
+        <p>{{ book.description }}</p>
+        <a class="text-link" href="{{ book.url | relative_url }}">Explore the book <span aria-hidden="true">→</span></a>
+      </div>
+    </article>
+  {% endfor %}
+</section>

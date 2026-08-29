@@ -304,7 +304,8 @@ h3 {
 .project-card,
 .content-card,
 .feature-card,
-.content-list-item {
+.content-list-item,
+.book-card {
   border: 1px solid var(--line);
   border-radius: var(--radius);
   background: rgba(255, 250, 240, 0.88);
@@ -581,6 +582,204 @@ h3 {
 .content-list-item > p:not(.item-meta),
 .content-list-item .clean-list {
   color: var(--muted);
+}
+
+.book-grid {
+  max-width: 920px;
+  display: grid;
+  gap: 1.25rem;
+  margin-top: 2rem;
+}
+
+.book-card {
+  display: grid;
+  grid-template-columns: minmax(170px, 220px) minmax(0, 1fr);
+  gap: clamp(1.4rem, 4vw, 2.4rem);
+  align-items: center;
+  padding: clamp(1.25rem, 3vw, 1.75rem);
+}
+
+.book-card-cover,
+.book-cover-frame {
+  overflow: hidden;
+  border-radius: 4px;
+  background: #211f1b;
+  box-shadow: 0 14px 28px rgba(37, 33, 27, 0.2);
+}
+
+.book-card-cover {
+  align-self: start;
+}
+
+.book-card-cover img,
+.book-cover-frame img {
+  width: 100%;
+  height: auto;
+}
+
+.book-card-copy h2 {
+  margin-bottom: 0.35rem;
+  font-size: clamp(1.7rem, 3vw, 2.1rem);
+}
+
+.book-card-copy h2 a {
+  color: var(--text);
+  text-decoration-color: rgba(122, 62, 29, 0.4);
+}
+
+.book-card-copy > p:not(.item-meta, .book-card-subtitle) {
+  color: var(--muted);
+}
+
+.book-card-subtitle {
+  margin-bottom: 1rem;
+  color: var(--accent-dark);
+  font-size: 1.08rem;
+  font-style: italic;
+}
+
+.book-page {
+  max-width: 1000px;
+}
+
+.book-hero {
+  display: grid;
+  grid-template-columns: minmax(230px, 330px) minmax(0, 1fr);
+  gap: clamp(2rem, 6vw, 4.5rem);
+  align-items: center;
+}
+
+.book-cover-frame {
+  margin: 0;
+}
+
+.book-hero-copy h1 {
+  margin-bottom: 0.4rem;
+}
+
+.book-subtitle {
+  margin-bottom: 1.5rem;
+  color: var(--muted);
+  font-size: 1.22rem;
+  font-style: italic;
+  line-height: 1.45;
+}
+
+.book-tagline {
+  max-width: 22ch;
+  margin-bottom: 0.9rem;
+  color: var(--accent-dark);
+  font-size: clamp(1.35rem, 2.5vw, 1.75rem);
+  font-weight: 700;
+  line-height: 1.35;
+}
+
+.book-summary {
+  max-width: 48ch;
+  color: var(--muted);
+  font-size: 1.08rem;
+}
+
+.book-buy-note {
+  margin: 0.8rem 0 0;
+  color: var(--muted);
+  font-family: var(--sans);
+  font-size: 0.82rem;
+}
+
+.book-detail-grid {
+  display: grid;
+  grid-template-columns: minmax(0, 1.7fr) minmax(240px, 0.8fr);
+  gap: 1.25rem;
+  align-items: start;
+  margin-top: 3rem;
+}
+
+.book-detail-grid .content-card {
+  max-width: none;
+  margin-top: 0;
+  padding: clamp(1.35rem, 3vw, 2rem);
+}
+
+.book-marketing > .eyebrow {
+  margin-bottom: 0.45rem;
+}
+
+.book-marketing h2:not(:first-of-type) {
+  margin-top: 2rem;
+}
+
+.book-feature-list {
+  margin: 0 0 1.25rem;
+  padding-left: 1.25rem;
+  color: var(--muted);
+}
+
+.book-feature-list li + li {
+  margin-top: 0.4rem;
+}
+
+.book-details h2 {
+  margin-bottom: 1rem;
+}
+
+.book-facts {
+  display: grid;
+  gap: 0;
+  margin: 0;
+}
+
+.book-facts div {
+  padding: 0.85rem 0;
+  border-top: 1px solid var(--line);
+}
+
+.book-facts div:first-child {
+  padding-top: 0;
+  border-top: 0;
+}
+
+.book-facts dt {
+  margin-bottom: 0.15rem;
+  color: var(--muted);
+  font-family: var(--sans);
+  font-size: 0.75rem;
+  font-weight: 750;
+  letter-spacing: 0.08em;
+  line-height: 1.3;
+  text-transform: uppercase;
+}
+
+.book-facts dd {
+  margin: 0;
+}
+
+.book-closing {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 2rem;
+  margin-top: 1.5rem;
+  padding: clamp(1.4rem, 4vw, 2rem);
+  border: 1px solid var(--line);
+  border-left: 4px solid var(--accent-gold);
+  border-radius: var(--radius);
+  background: rgba(239, 229, 208, 0.4);
+}
+
+.book-closing h2 {
+  margin-bottom: 0.45rem;
+  font-size: 1.6rem;
+}
+
+.book-closing p:last-child {
+  max-width: 52ch;
+  margin-bottom: 0;
+  color: var(--muted);
+}
+
+.book-closing .button {
+  flex: 0 0 auto;
 }
 
 .writing-index {
@@ -1077,6 +1276,10 @@ h3 {
     grid-template-columns: 1fr;
   }
 
+  .book-detail-grid {
+    grid-template-columns: 1fr;
+  }
+
   .project-card {
     min-height: 0;
   }
@@ -1183,6 +1386,25 @@ h3 {
 
   .button {
     width: 100%;
+  }
+
+  .book-card,
+  .book-hero {
+    grid-template-columns: 1fr;
+  }
+
+  .book-card-cover {
+    max-width: 190px;
+  }
+
+  .book-cover-frame {
+    width: min(100%, 280px);
+    margin-inline: auto;
+  }
+
+  .book-closing {
+    align-items: stretch;
+    flex-direction: column;
   }
 
   .form-grid {
