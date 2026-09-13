@@ -1,10 +1,10 @@
 # Rockhopper 1776 Military History Article Research and Editorial Standard
 
-Version 1.4
+Version 1.5
 
 Established: August 3, 2026
 
-Revised: August 23, 2026
+Revised: September 13, 2026
 
 Status: Mandatory for all automated military-history article research and drafting
 
@@ -240,6 +240,24 @@ Use em dashes sparingly. They should be an occasional tool for a genuine interru
 
 Polish should not make every unit of prose look engineered from the same template. Let the evidence, chronology, scale, and human stakes determine the shape of a passage. Natural historical prose may include an elegant synthesis, a plain report, a brief factual interlude, a source dispute, a close description, or a transition that leaves a consequence to unfold in the next paragraph. Do not introduce grammatical errors, fake informality, invented personal experience, arbitrary roughness, or unsupported uncertainty to appear human or to influence automated detectors.
 
+### Historian's prose test for paragraph openings
+
+An opening can satisfy the formal transition rules above and still sound manufactured. Grammatical completeness, additional length, a connective such as “although,” “because,” or “while,” and a reference to the preceding paragraph are not sufficient by themselves. The sentence must also express a recognizable historical relationship in idiomatic prose that a careful historian could plausibly use in ordinary narrative or analysis.
+
+During the paragraph-opening audit, mark sentences that depend on any of these patterns:
+
+- a bare negative that announces what an actor, event, or condition did not do while postponing the actual historical development until the next sentence;
+- an abstract subject such as “success,” “victory,” “risk,” “the distinction,” “the relationship,” or “the picture” joined to a vague or metaphorical verb such as “carried,” “encouraged,” “addressed,” “changed,” or “mattered”;
+- a balanced contrast between categories, methods, or abstractions that conceals the people, institutions, decisions, or actions that produced the result;
+- an ornamental image, schematic metaphor, or polished reversal used where direct description of sequence, position, action, or consequence would be clearer;
+- a compressed verdict or miniature conclusion that resembles a heading, caption, thesis reminder, or quotable maxim more than the beginning of sustained historical exposition.
+
+Revise from the underlying history rather than padding the original wording. Prefer a named actor, unit, institution, source, date, action, material condition, or consequence. If a negative or qualification is necessary, attach it to the positive historical relationship it limits. When a paragraph turns to historiography, name the historian, document, or institutional account making the claim. When it advances chronology, name the event and action. When it develops causation, state the condition and what followed from it.
+
+Reread the previous paragraph's close together with the revised opening and the remainder of the new paragraph. If the second sentence still performs the real transition or supplies the first substantive historical information, combine or rewrite them. If the opening would sound more at home in display copy, a caption, or a concluding aphorism, revise it unless that effect is both necessary and explicitly justified in the working notes.
+
+Owner feedback on an awkward sentence is evidence that the prose audit missed a class of problem, not merely one line. Identify the underlying failure, rescan the entire draft for syntactic and conceptual analogues, revise the related cases, and record the generalized lesson in the working notes and review report.
+
 Use balanced contrast selectively. Constructions such as “not X, but Y,” “less X than Y,” paired reversals, and symmetrical qualifications can sharpen an argument, but repeated use creates a mechanical cadence. During revision, mark these constructions across the whole article. Retain the strongest examples; when several perform the same work, recast most of the others as direct factual, causal, or chronological prose.
 
 Do not force every paragraph to end with a compressed interpretive maxim. Some paragraphs should end on a named person, unit, object, action, result, evidentiary limit, or concrete detail. A functional closing sentence is acceptable when it completes the local work and prepares what follows. Similarly, vary paragraph architecture according to purpose rather than repeatedly moving through topic, facts, complication, and polished lesson.
@@ -321,7 +339,7 @@ Follow this sequence for every automated article:
 9. Draft the article without citations first only if source mapping is maintained; otherwise draft with notes as claims are written.
 10. Add and verify Chicago endnotes and bibliography.
 11. Perform the separate accuracy and citation audit.
-12. Perform an editorial pass for organization, clarity, repetition, tone, warmth, paragraph-to-paragraph flow, sentence rhythm, rhetorical variety, and length. Read each paragraph's closing sentence beside the next paragraph's opening sentence, and read each section's close beside the next section's opening before reviewing all paragraph openings and section transitions in sequence. Audit every paragraph-opening sentence separately, using brevity or a syntactically bare independent clause as a prompt for contextual review rather than a mechanical word-count test. Revise openings that merely announce an abstract topic, conclusion, or change before the paragraph supplies the real context. Revise unintended clipped or staccato runs, weak bridges, abrupt topic shifts, assumed introductions, repeated transition formulas, reflexive “this matters” commentary, and any passage whose ideas are merely adjacent rather than logically connected. Preserve a short opening only when contextual rereading shows that its abruptness performs necessary work that a developed sentence would weaken, and record the reason in the working notes and owner report. Short sentences elsewhere must likewise serve a deliberate contextual purpose, not economy alone. Review every em dash and replace it unless it is the clearest punctuation choice. Then perform a separate rhetorical-pattern and naturalness audit. Mark repeated balanced contrasts, polished paragraph-ending maxims, restatements of the thesis, recurring paragraph templates, ornamental parallel lists or triads, and abstract grammatical subjects that displace concrete historical actors. Revise excessive concentrations while retaining the strongest intentional examples, and record the principal categories of change in the working notes and owner report.
+12. Perform an editorial pass for organization, clarity, repetition, tone, warmth, paragraph-to-paragraph flow, sentence rhythm, rhetorical variety, and length. Read each paragraph's closing sentence beside the next paragraph's opening sentence, and read each section's close beside the next section's opening before reviewing all paragraph openings and section transitions in sequence. Audit every paragraph-opening sentence separately, using brevity or a syntactically bare independent clause as a prompt for contextual review rather than a mechanical word-count test. Revise openings that merely announce an abstract topic, conclusion, or change before the paragraph supplies the real context. Revise unintended clipped or staccato runs, weak bridges, abrupt topic shifts, assumed introductions, repeated transition formulas, reflexive “this matters” commentary, and any passage whose ideas are merely adjacent rather than logically connected. Apply the historian's prose test as a separate check: connective syntax and added length do not rescue abstract agency, strained verbs, false symmetry, ornamental metaphor, or a compressed verdict. Preserve a short opening only when contextual rereading shows that its abruptness performs necessary work that a developed sentence would weaken, and record the reason in the working notes and owner report. Short sentences elsewhere must likewise serve a deliberate contextual purpose, not economy alone. Review every em dash and replace it unless it is the clearest punctuation choice. Then perform a separate rhetorical-pattern and naturalness audit. Mark repeated balanced contrasts, polished paragraph-ending maxims, restatements of the thesis, recurring paragraph templates, ornamental parallel lists or triads, and abstract grammatical subjects that displace concrete historical actors. Revise excessive concentrations while retaining the strongest intentional examples, and record the principal categories of change in the working notes and owner report. When the owner identifies awkward prose, diagnose the underlying pattern and rescan the whole draft for analogous constructions; do not treat the quoted sentences as an exhaustive list.
 13. Prepare the article page and Writings card in the isolated task worktree.
 14. Validate document structure, table-of-contents links, internal links, dates, reading time, encoding, and the repository diff.
 15. Produce the required review report and alert the site owner.
