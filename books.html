@@ -1,20 +1,23 @@
 ---
 layout: default
 title: Books
-description: Published books by Kevin Conway, with details and purchase links.
+description: Published and forthcoming books by Kevin Conway, with details and purchase links for available titles.
 permalink: /books/
 section: books
 ---
 
-{% assign books = site.pages | where: "book", true | sort: "published" | reverse %}
+{% assign book_pages = site.pages | where: "book", true %}
+{% assign forthcoming_books = book_pages | where: "coming_soon", true %}
+{% assign published_books = book_pages | where_exp: "book", "book.coming_soon != true" | sort: "published" | reverse %}
+{% assign books = forthcoming_books | concat: published_books %}
 
 <p class="eyebrow">Books</p>
-<h1>My Published Books</h1>
+<h1>My Books</h1>
 <p class="lead">
-  All books are available for order from Amazon.
+  Explore my published and forthcoming books. Published books are available for order from Amazon.
 </p>
 
-<section class="book-grid" aria-label="Published books">
+<section class="book-grid" aria-label="Published and forthcoming books">
   {% for book in books %}
     <article class="book-card">
       <a class="book-card-cover" href="{{ book.url | relative_url }}">
@@ -28,7 +31,11 @@ section: books
       </a>
 
       <div class="book-card-copy">
-        <p class="item-meta">{{ book.book_format }} · {{ book.pages }} pages</p>
+        {% if book.coming_soon %}
+          <p class="item-meta">Coming soon</p>
+        {% else %}
+          <p class="item-meta">{{ book.book_format }} · {{ book.pages }} pages</p>
+        {% endif %}
         <h2><a href="{{ book.url | relative_url }}">{{ book.title }}</a></h2>
         <p class="book-card-subtitle">{{ book.subtitle }}</p>
         <p>{{ book.description }}</p>
