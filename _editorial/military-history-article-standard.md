@@ -1,10 +1,10 @@
 # Rockhopper 1776 Military History Article Research and Editorial Standard
 
-Version 1.5
+Version 1.6
 
 Established: August 3, 2026
 
-Revised: September 13, 2026
+Revised: October 4, 2026
 
 Status: Mandatory for all automated military-history article research and drafting
 
@@ -303,6 +303,8 @@ Create a private research note identifying any remaining uncertainty, contested 
 
 Match the established Rockhopper 1776 Writings presentation unless the site owner instructs otherwise.
 
+Use exactly two article tags: one primary subject in `topics` and one war or historical period in `periods`. Prefer the established catalogue labels. Choose the most useful subject for browsing rather than adding secondary themes as extra topic tags; for example, an Amiens article uses `Land warfare` and `First World War`.
+
 The prepared draft should include:
 
 - a standalone article page using the existing article layout and styling;
@@ -341,7 +343,7 @@ Follow this sequence for every automated article:
 11. Perform the separate accuracy and citation audit.
 12. Perform an editorial pass for organization, clarity, repetition, tone, warmth, paragraph-to-paragraph flow, sentence rhythm, rhetorical variety, and length. Read each paragraph's closing sentence beside the next paragraph's opening sentence, and read each section's close beside the next section's opening before reviewing all paragraph openings and section transitions in sequence. Audit every paragraph-opening sentence separately, using brevity or a syntactically bare independent clause as a prompt for contextual review rather than a mechanical word-count test. Revise openings that merely announce an abstract topic, conclusion, or change before the paragraph supplies the real context. Revise unintended clipped or staccato runs, weak bridges, abrupt topic shifts, assumed introductions, repeated transition formulas, reflexive “this matters” commentary, and any passage whose ideas are merely adjacent rather than logically connected. Apply the historian's prose test as a separate check: connective syntax and added length do not rescue abstract agency, strained verbs, false symmetry, ornamental metaphor, or a compressed verdict. Preserve a short opening only when contextual rereading shows that its abruptness performs necessary work that a developed sentence would weaken, and record the reason in the working notes and owner report. Short sentences elsewhere must likewise serve a deliberate contextual purpose, not economy alone. Review every em dash and replace it unless it is the clearest punctuation choice. Then perform a separate rhetorical-pattern and naturalness audit. Mark repeated balanced contrasts, polished paragraph-ending maxims, restatements of the thesis, recurring paragraph templates, ornamental parallel lists or triads, and abstract grammatical subjects that displace concrete historical actors. Revise excessive concentrations while retaining the strongest intentional examples, and record the principal categories of change in the working notes and owner report. When the owner identifies awkward prose, diagnose the underlying pattern and rescan the whole draft for analogous constructions; do not treat the quoted sentences as an exhaustive list.
 13. Prepare the article page and Writings card in the isolated task worktree.
-14. Validate document structure, table-of-contents links, internal links, dates, reading time, encoding, and the repository diff.
+14. Validate document structure, table-of-contents links, internal links, dates, reading time, encoding, and the repository diff. Confirm that each article has one topic and one period tag, that the generated filter values match the displayed tags, and that selecting either tag or both together returns the article on the Writings page.
 15. Produce the required review report and alert the site owner.
 
 ## Review-only boundary
