@@ -1,10 +1,10 @@
 # Rockhopper 1776 Military History Article Research and Editorial Standard
 
-Version 1.7
+Version 1.8
 
 Established: August 3, 2026
 
-Revised: October 25, 2026
+Revised: November 8, 2026
 
 Status: Mandatory for all automated military-history article research and drafting
 
@@ -309,6 +309,23 @@ After completing the draft, perform a separate fact-checking pass. At minimum, v
 
 Create a private research note identifying any remaining uncertainty, contested interpretation, or source limitation. Do not conceal unresolved problems with confident prose.
 
+## Final magazine-readiness review
+
+Every article must receive a separate final review after the accuracy, sentence-flow, naturalness, and website checks, and before the owner receives the finished draft. Read the entire final article again as an unfamiliar submission and ask directly: **Does this read like a polished article ready for consideration by a premier military-history magazine?** Assess the text on the page without relying on the drafting notes, the writer's intentions, the earlier audit's verdict, or successful technical validation. This is an editorial judgment, not a prediction of acceptance by a particular magazine.
+
+The review must examine the same substantive questions an exacting editor would raise:
+
+- Does the opening establish the mission or event, people, place, stakes, and organizing question before expecting specialist knowledge? Does the lead orient the reader without forcing the introduction to repeat it?
+- Is every person, institution, aircraft, technical term, and retrospective investigation introduced before the reader must understand its role? Are pronouns and phrases such as “the same gap,” “those dangers,” and “that margin” attached to clear, accurate antecedents?
+- Does each paragraph opening begin a concrete historical or analytical development that grows from the preceding passage? Mark generic topic announcements, statements of obvious obligations, compressed verdicts, administrative diction, strained verbs, and openings whose second sentence contains the first useful information.
+- Does the prose sustain connected, idiomatic exposition across sentences and sections? Check both clipped runs and overloaded sentences; added length or conjunctions do not cure an unclear historical relationship.
+- Do causal statements actually follow from the preceding evidence? Verify which risk a decision accepted or avoided, what a numerical margin measures, and whether every quantity or comparison has a defined basis. Partial success must not be used to establish the feasibility or inevitability of an unexecuted phase.
+- Does the article develop its argument through new evidence, decisions, consequences, or qualifications rather than repeatedly summarizing the thesis? Check the whole article for recurring assertion-list-qualification-lesson paragraphs, ornamental contrasts, and conclusions that replay earlier material.
+
+Record a candid verdict supported by representative passages and an explanation of the recurring faults, including any reasoning problem revealed by awkward prose. When faults recur, revise the entire affected pattern, not just the quoted examples. Recheck changed historical claims against their sources and reread the revised article in full before issuing the final verdict. Do not declare the article polished while leaving correctable examples of the identified problems in place.
+
+The private working notes must preserve the principal findings, representative revisions, and any remaining limitations. The owner report must briefly state the final readiness judgment and the most consequential remaining editorial or evidentiary issue. Distinguish readiness for owner review from a claim of magazine-level prose quality; neither technical checks nor a completed checklist establishes the latter.
+
 ## Website preparation
 
 Match the established Rockhopper 1776 Writings presentation unless the site owner instructs otherwise.
@@ -354,7 +371,8 @@ Follow this sequence for every automated article:
 12. Perform an editorial pass for organization, clarity, repetition, tone, warmth, paragraph-to-paragraph flow, sentence rhythm, rhetorical variety, and length. First read the title and section headings in sequence and beside their opening paragraphs; replace clever, metaphorical, vague, or thesis-repeating display language with direct historical description unless the figurative term names a necessary concept developed in the article. Read each paragraph's closing sentence beside the next paragraph's opening sentence, and read each section's close beside the next section's opening before reviewing all paragraph openings and section transitions in sequence. Audit every paragraph-opening sentence separately, using brevity or a syntactically bare independent clause as a prompt for contextual review rather than a mechanical word-count test. Revise openings that merely announce an abstract topic, conclusion, or change before the paragraph supplies the real context. Revise unintended clipped or staccato runs, weak bridges, abrupt topic shifts, assumed introductions, repeated transition formulas, reflexive “this matters” commentary, and any passage whose ideas are merely adjacent rather than logically connected. Apply the historian's prose test as a separate check: connective syntax and added length do not rescue abstract agency, strained verbs, false symmetry, ornamental metaphor, or a compressed verdict. Preserve a short opening only when contextual rereading shows that its abruptness performs necessary work that a developed sentence would weaken, and record the reason in the working notes and owner report. Short sentences elsewhere must likewise serve a deliberate contextual purpose, not economy alone. Review every em dash and replace it unless it is the clearest punctuation choice. Then perform a separate rhetorical-pattern and naturalness audit. Mark repeated balanced contrasts, polished paragraph-ending maxims, restatements of the thesis, recurring paragraph templates, ornamental parallel lists or triads, and abstract grammatical subjects that displace concrete historical actors. Revise excessive concentrations while retaining the strongest intentional examples, and record the principal categories of change in the working notes and owner report. When the owner identifies awkward prose, diagnose the underlying pattern and rescan the whole draft for analogous constructions; do not treat the quoted sentences as an exhaustive list.
 13. Prepare the article page and Writings card in the isolated task worktree.
 14. Validate document structure, table-of-contents links, internal links, dates, reading time, encoding, and the repository diff. Confirm that each article has one topic and one period tag, that the generated filter values match the displayed tags, and that selecting either tag or both together returns the article on the Writings page.
-15. Produce the required review report and alert the site owner.
+15. Complete the separate final magazine-readiness review of the entire final text. Correct recurring problems, reverify affected claims, and repeat the full read after substantial revision.
+16. Produce the required review report, including the final editorial verdict, and alert the site owner.
 
 ## Review-only boundary
 
@@ -407,6 +425,7 @@ Every completed scheduled run must alert the site owner and report:
 - validation performed and its results;
 - any editorial decisions requiring human review;
 - the principal sentence-flow and naturalness revisions, including any conspicuous rhetorical pattern deliberately retained and why;
+- the verdict from the separate final magazine-readiness review, supported by representative findings, the revisions they prompted, and any remaining limits;
 - three to five genuinely new craft lessons from the week's named source models, including what prompted each lesson, how it changed the present draft, and how it will guide later Rockhopper 1776 work; generic or recycled advice does not satisfy this requirement;
 - publication status stated exactly as: **Not published — awaiting editorial approval.**
 
