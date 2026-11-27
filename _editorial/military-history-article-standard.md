@@ -1,10 +1,10 @@
 # Rockhopper 1776 Military History Article Research and Editorial Standard
 
-Version 1.8
+Version 1.9
 
 Established: August 3, 2026
 
-Revised: November 8, 2026
+Revised: November 27, 2026
 
 Status: Mandatory for all automated military-history article research and drafting
 
@@ -229,6 +229,8 @@ Technology and weapon-development articles should distinguish design intent, tec
 ## Voice and style
 
 Write in clear American English for an informed general audience. The tone should be authoritative but not overconfident, lively but not sensational, and analytical without becoming needlessly abstract.
+
+The owner-approved November 27, 2026 revision of [Between Two Tides: How the Inchon Landing Worked](../between-two-tides-inchon-landing.html) is the standing prose model for future articles. Consult it when planning the narrative and during the final editorial review. Study how it introduces the war, geography, people, and stakes before relying on specialist knowledge; develops connected sentences without awkward or clipped phrasing; and moves from objectives through constraints, preparation, execution, and consequences. Its qualifications distinguish documented findings from inference without interrupting the account. Seek the same clarity, continuity, and deliberate progression while allowing each subject's evidence to determine its structure and emphasis. Use it as a standard of quality, not a fixed outline or a source of wording to repeat.
 
 Academic rigor does not require cold, compressed, or clipped prose. Write with a touch of warmth and guide the reader along a deliberate narrative or learning path. A paragraph should not merely deposit facts; it should orient the reader, develop an idea, and make clear why that idea leads to what follows. Introduce a person, institution, technology, or technical term before describing the role it performs. Do not open a paragraph with wording that assumes an unmade introduction.
 
